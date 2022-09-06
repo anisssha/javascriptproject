@@ -33,16 +33,23 @@ html {
     text-shadow: 0 0 ,5rem black;
     transition: all .07s ease;
 }
-.Sound{
 
+.key:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+  
+.Sound{
     font-size: 1.2rem;
     text-transform: uppercase;
     color: #00ffc6;
 }
+
 kbd{
     display: block;
     font-size: 4rem;
 }
+
+kbd:hover {transform: scale(1.1);}
 
 .playing{
     transform: scale(1.1);
