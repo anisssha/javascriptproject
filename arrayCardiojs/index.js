@@ -108,13 +108,9 @@ const people = [
 // Array.prototype.filter()
 // 1. Filter the list of inventors for those who were born in the 1800's
 
-//const eignteen = scientists.filter( scientist => scientist.born >=1800 && scientist.born <=1900);
-//console.table(eignteen);
+const eignteen = scientists.filter( scientist => scientist.born >=1800 && scientist.born <=1900);
+console.table(eignteen);
     
-
-    
-
-
 // Array.prototype.map()
 // 2. Give us an array of the inventors' first and last names
 
